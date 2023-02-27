@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/4052196a9f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./signin.css">
+    <link rel="stylesheet" href="./signup.css">
+</head>
+<body>
+    
+    <button id="open-popup-btn">Log In</button>
+    <div class="popup-overlay"></div>
+    <div class="popup" id="fpopup">
+       <div class="logoset"><img src="./logo.png" alt=""></div>
+      <div id="signin">
+      <h3 id="heading">Email Id and Password</h3>
+      <form>
+        <div class="form-element"> <label for="email">Email</label><input type="text" id="email" placeholder="Enter Email"> </div>
+        <div class="form-element"><label for="password">Password</label> <input type="password" id="password" placeholder="Enter Password"></div>
+        <div class="form-element"><input type="checkbox" id="check"><label for="password">Remember Me</label></div>
+        <div class="form-element"><button>Sign In</button></div>
+        <div class="form-element"><a href="" id="sign_up">Register Here?</a></div> 
+      </form>       
+    </div>
+    <div class="popup-close-btn">&times;</div>
+    </div>
+    <!-- ///////////////////////////////////// -->
+    <div class="set" id="signup">
+      <!-- <div id="signup"> -->
+        <div class="logoset"><img src="./logo.png" alt=""></div>
+        <h2 class="h2">Register</h2>
+    
+        <form>
+          <input type="text" id="name" placeholder="Full Name"><br>
+          <input type="number"id="mobile" placeholder="Mobile No."><br>
+          <input type="email" id="email" placeholder="Emaid ID"><br>
+          <input type="password" id="password" placeholder="Password"><br>
+          <p>Password must be at least 8 characters long with 1 Uppercase, 1 Lowercase & 1 Numeric character.</p>
+          <input type="submit" value="Submit"  class="submit"/>
+        </form>
+      <!-- </div> -->
+      <div class="back">
+         <!-- <a href="./index.html"><i class="fa-solid fa-house"></i></a> -->
+         <i id="back_btn" class="fa-solid fa-circle-chevron-left"></i>
+        </div>
+    </div>
+       
+</body>
+</html>
+<script src="./signin.js"></script>
