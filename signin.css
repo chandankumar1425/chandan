@@ -105,12 +105,7 @@ body.popup-active .popup-overlay{
  .logoset img{
    width:100%;
 }
-body{
-   background-image:
-    url("https://imgs.search.brave.com/2hyC_yO9PpNTbmq0Giys4Tzb5fIjSgvbCd52HY_WsSA/rs:fit:800:600:1/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzM0MzM4/Mi9zY3JlZW5zaG90/cy8xNTc3NTU5L3Vu/dGl0bGVkLTEuZ2lm.gif");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
 #signup{
    display: none;
 }
